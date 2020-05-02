@@ -2,3 +2,7 @@
   from = "/*"
   to = "/error404"
   status = 404 
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 200 
