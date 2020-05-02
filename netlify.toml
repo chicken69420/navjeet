@@ -3,6 +3,6 @@
   to = "/error404"
   status = 404 
 [[redirects]]
-  from = "/about.html"
-  to = "/about"
+  from = "/work.html"
+  to = "/work"
   status = 200 
