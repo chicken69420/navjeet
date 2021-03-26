@@ -1,3 +1,7 @@
+[[redirects]] 
+  from = "/nishu"
+  to = "/anshi/paper"
+  status = 200
 [[redirects]]
   from = "/*"
   to = "/error404"
@@ -6,7 +10,4 @@
   from = "/work.html"
   to = "/work"
   status = 200 
-[[redirects]] 
-  from = "/nishu"
-  to = "/anshi/paper"
-  status = 200
+
