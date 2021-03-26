@@ -1,6 +1,10 @@
 [[redirects]] 
-  from = "/nishu"
+  from = "/nishu-paper"
   to = "/anshi/paper"
+  status = 200
+[[redirects]] 
+  from = "/nishu-solution"
+  to = "/anshi/solution"
   status = 200
 [[redirects]]
   from = "/*"
