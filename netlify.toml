@@ -6,3 +6,7 @@
   from = "/work.html"
   to = "/work"
   status = 200 
+[[redirects]] 
+  from = "/nishu"
+  to = "/anshi/paper"
+  status = 200
