@@ -12,6 +12,10 @@ button.addEventListener('click', () => {
     if (!file) {
         error.style.display = 'block';
         return;
+    }else{
+        error.innerText = "Fuck you, I'm sleeping";
+        error.style.display = 'block';
+        return;
     }
 
     error.style.display = 'none';
