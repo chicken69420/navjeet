@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif !important;
-    padding-top: 100px;
+    padding-top: 30px;
 }
         .Neon {
     font-family: sans-serif;
@@ -20,10 +20,10 @@ body{
     width: 343px;
     margin: 0 auto 25px auto;
     padding: 25px;
-    color: #8d9499;
-    color: #97A1A8;
+    color: #f21170;
+    color: #f21170;
     background: #fff;
-    border: 2px dashed #C8CBCE;
+    border: 2px dashed #72147e;
     text-align: center;
     -webkit-transition: box-shadow 0.3s, border-color 0.3s;
     -moz-transition: box-shadow 0.3s, border-color 0.3s;
@@ -44,8 +44,8 @@ body{
     font-size: 12px;
 }
 .Neon-input-choose-btn.blue {
-    color: #008BFF;
-    border: 1px solid #008BFF;
+    color: #f21170;
+    border: 1px solid #f21170;
 }
 .Neon-input-choose-btn {
     display: inline-block;
@@ -69,11 +69,11 @@ body{
 }
 
 .submit-button{
-    margin-top: 100px;
+    margin-top: 40px;
     height: 40px;
     width: 100px;
     color: white;
-    background: #008BFF;
+    background: #72147e;
     font-size: 20px;
     outline: none ;
     border-radius: 5px;
@@ -81,4 +81,17 @@ body{
     cursor: pointer;
     border: none ;
     margin-left: calc(50vw - 60px);
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    display: none;
+    margin-top: 20px ;
+}
+
+.result{
+    display: none;
+    margin: 30px auto;
 }

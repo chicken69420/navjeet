@@ -4,12 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    	<link rel="shortcut icon" href="assets/img/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/120.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/72.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/img/57.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+
     <link rel="stylesheet" href="detect.css">
     <title>Object Detect</title>
 </head>
@@ -17,11 +12,17 @@
 
 
         <div class="Neon Neon-theme-dragdropbox">
-        <input style="z-index: 999; opacity: 0; width: 320px; height: 200px; position: absolute; right: 0px; left: 0px; margin-right: auto; margin-left: auto;" name="files[]" id="filer_input2" multiple="multiple" type="file" accept="image/*">
+        <input style="z-index: 999; opacity: 0; width: 320px; height: 200px; position: absolute; right: 0px; left: 0px; margin-right: auto; margin-left: auto;" name="files[]" id="filer_input2" type="file" accept="image/*" >
         <div class="Neon-input-dragDrop"><div class="Neon-input-inner"><div class="Neon-input-icon"><i class="fa fa-file-image-o"></i></div><div class="Neon-input-text"><h3>Drag&amp;Drop files here</h3> <span style="display:inline-block; margin: 15px 0">or</span></div><a class="Neon-input-choose-btn blue">Browse Files</a></div></div>
         </div>
 
             <button class="submit-button"> Submit </button>
+
+        <p class="error">Select a file, motherfucker!</p>
+
+
+        
+        <img src="" alt="" class="result">
 
 
         <script src="detect.js"></script>
