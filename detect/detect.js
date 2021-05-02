@@ -57,8 +57,6 @@ button.addEventListener('click', () => {
                 })
                 .catch(error => {
                     console.log(error);
-                    error.innerText = "Some error occurred";
-                    error.style.display = 'block';
                 });
 
 
