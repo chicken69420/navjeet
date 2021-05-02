@@ -9,7 +9,8 @@ button.addEventListener('click', ()=>{
 
     fetch('https://androidapi420.herokuapp.com/api/upload/', {
         method: 'POST',
-        body: formData
+        body: formData,
+        mode: "no-cors"
     })
         .then (response => response.json())
         .then(data => {console.log(data)})
