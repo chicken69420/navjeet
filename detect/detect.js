@@ -3,7 +3,7 @@ const input = document.querySelector("#filer_input2");
 const img = document.querySelector(".result");
 const error = document.querySelector('.error');
 
-const url = "http://a65142b4c4ab.ngrok.io";
+const url = "http://abe3c1a97d75.ngrok.io";
 let img_url;
 
 button.addEventListener('click', () => {
