@@ -48,8 +48,7 @@ button.addEventListener('click', () => {
 
             fetch(url + '/api/upload/', {
                 method: 'POST',
-                body: formData,
-                mode: 'no-cors'
+                body: formData
             })
                 .then(response => response.json())
                 .then(data => {
