@@ -3,7 +3,7 @@ const input = document.querySelector("#filer_input2");
 const img = document.querySelector(".result");
 const error = document.querySelector('.error');
 
-const url = "http://64d320e1e57b.ngrok.io";
+const url = "http://a65142b4c4ab.ngrok.io";
 let img_url;
 
 button.addEventListener('click', () => {
@@ -12,11 +12,12 @@ button.addEventListener('click', () => {
     if (!file) {
         error.style.display = 'block';
         return;
-    }else{
-        error.innerText = "Fuck you, I'm sleeping";
-        error.style.display = 'block';
-        return;
     }
+//     else{
+//         error.innerText = "Fuck you, I'm sleeping";
+//         error.style.display = 'block';
+//         return;
+//     }
 
     error.style.display = 'none';
     const formData = new FormData();
