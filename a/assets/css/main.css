@@ -1,0 +1,108 @@
+
+body{
+  overflow:hidden;
+    font-family: sans-serif;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%) !important;
+    font-family: "Work Sans", sans-serif;
+}
+.svg-div{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 1s ease all;
+    flex-direction: column;
+}
+text{
+  fill:red;
+}
+.rocketManSVG {
+    width: 70%;
+    height: 70%;
+    transition: 1.3s ease-out all;
+}
+.astronaut{
+    transition: 0.4s ease all;
+}
+.scroll-btn{
+    height: 40px;
+    width: 150px;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+.scroll-btn:hover{
+    background: black;
+    color: white;
+}
+.scroll-btn:hover svg{
+    transform: rotate(90deg);
+    fill: white;
+
+
+}
+.scroll-btn svg{
+    height: 18px;
+    top: 2px;
+    position: relative;
+    transition: 0.3s ease transform;
+}
+.scroll-btn span{
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.character {
+  color: white;
+  font-size: 68px;
+  position: absolute;
+  left:0;
+  top: 0;
+  bottom: 0;
+  right:0;
+  text-align: center;
+  line-height: .475;
+  font-family: Oswald, monospace;
+}
+.balloon{
+    position: absolute;
+    width: 50px;
+
+  animation: mymove 10s infinite ease-in-out;
+}
+.balloon1{
+    top: 0%;
+    left: 30%;
+}
+@keyframes mymove{
+  0% {left:0px;}
+  20%{left:50px; transform:rotate(10deg);}
+  40%{left:100px;}
+  60%{left:50px; transform:rotate(-10deg);}
+  80%{left:70px; transform:rotate(10deg);}
+  100%{left:0px; transform:rotate(0deg);}
+}
+
+
+.balloon2{
+    top: 0%;
+    left: 60%;
+}
+
+.balloon3{
+    top: 0%;
+    left: 90%;
+}
