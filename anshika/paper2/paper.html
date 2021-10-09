@@ -1,0 +1,54 @@
+<script src="p1.js"></script>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paper 2</title>
+</head>
+<body style="font-family: sans-serif !important;">
+
+<script src='https://d33wubrfki0l68.cloudfront.net/js/adc83b19e793491b1c6ea0fd8b46cd9f32e592fc/js/autogeolocate.js'></script>
+<h1 style="color: #fce100; text-align: center">PAPER - 2</h1>
+
+<script>
+
+    let final = p1;
+    const subs = ['PHYSICS', 'CHEMISTRY', 'MATHEMATICS'];
+    const total = 54;
+    const one = Math.floor(total / 3);
+    makepaper();
+
+    function makepaper() {
+        if (final !== '') {
+            for (let i = 1; i <= total; i++) {
+                const aDIV = document.createElement('div');
+                let number = 'qu' + i.toString();
+                let n = i % one;
+                if (n === 0) {
+                    n = one;
+                }
+                if (n === 1) {
+                    let k = document.createElement('p');
+                    let sub = subs[Math.floor(i / one)];
+                    k.innerHTML = '<p style="text-align: center; font-size:26px;font-weight:800">' + sub + '</p>';
+                    document.querySelector('body').appendChild(k);
+                }
+                try {
+                    aDIV.innerHTML = '<p style="font-weight: 700; font-size:23px">' + n + '.</p>' + final[number]['ENGLISH']['QUESTION_TEXT'] + '<br><b>(A). </b>' + final[number]['ENGLISH']['OPT1'] + '<br><b>(B). </b>' + final[number]['ENGLISH']['OPT2'] + '<br><b>(C). </b>' + final[number]['ENGLISH']['OPT3'] + '<br><b>(D). </b>' + final[number]['ENGLISH']['OPT4'] + '<hr style="border: 2px solid red;margin:10px 0">';
+                    document.querySelector('body').appendChild(aDIV);
+                } catch (e) {
+                    console.log(e);
+                    break
+                }
+            }
+        }
+    }
+
+
+</script>
+</body>
+</html>pt>
+</body>
+</html>
